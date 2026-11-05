@@ -1,1 +1,4 @@
-- Use three-part versions: v0.231 is now v0.2.31.
+FireRed Evolved v0.2.34
+- Restore Route 14's tree Secret Base.
+- Synchronize the latest encounter rules and event behavior with FireRed Evolv3D.
+- Keep listed rare encounters at 5%, with nighttime Gastly at 5% and Haunter at 1%.

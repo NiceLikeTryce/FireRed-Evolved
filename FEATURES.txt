@@ -20,8 +20,8 @@
 - Incense breeding produces Marill or Wobbuffet; no Gen3 hatchlings.
 - Altering Cave supports Nintendo's eight Gen2 species.
 - Original FireRed Sevii Gen2 encounters are restored.
-- Sevii wild tables retain vanilla FireRed species and levels; species odds are equal except nighttime Ghosts.
-- Wild species have equal odds across generations; nighttime Ghost odds are preserved.
+- Listed vanilla 1% species have a 5% share in their original encounter pools, with equal odds for the remaining species.
+- Other wild pools retain equal species odds across generations and preserve nighttime Ghost odds.
 - Pokedex entries, sorting, searches and counts stop at #251.
 - Gen2 entries, capture pages and Summary/Hall of Fame numbers appear early.
 - Pokedex completion checks count only caught #1-#251.
@@ -85,9 +85,9 @@
 - Initial RNG seeding follows Ruby/Sapphire while RTC features remain.
 - TREE SHAKER brings G/S/C large-tree encounters to Kanto.
 - Tree encounters mix generations without a Champion switch.
-- Night trees give Ghost types a combined 25% share.
+- Night Tree Shaker pools give Gastly 5% and Haunter 1%.
 - Tree sleepers follow Gen2 species/time rules with seven initial sleep turns.
-- Gastly has a 5% nighttime share in every grassy wild-encounter area.
+- Night grass gives Gastly 5% and Haunter 1% alongside the listed vanilla shares.
 - Misdreavus uses Lv45 outside the Safari Zone.
 - Tree interactions work on every side, including Viridian Forest.
 - Strength retains its original boulder behavior.
@@ -204,7 +204,7 @@
 ## Secret Bases
 - Route maps have at most one indent; removed extras restore original terrain.
 - Route24 terrain and borders match vanilla; its berry planting spot stays invisible.
-- Keep 27 entrances across Kanto, islands and towns; limit numbered Routes to one each.
+- Keep 28 entrances across Kanto, islands and towns; limit numbered Routes to one each.
 - Outdoor roofs and ledges stay intact around Secret Base entrances.
 - Cave and shrub entrances use straight cliff faces; older saves clear their moved markers.
 - SECRET POWER opens marked caves, trees and shrubs.

@@ -1,7 +1,7 @@
 # FireRed Evolved
 
 FireRed Evolved expands the original Kanto adventure on Game Boy Advance.
-The current beta is **v0.2.31**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
+The current beta is **v0.2.34**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
 
 ## Major features
 
@@ -10,7 +10,7 @@ The current beta is **v0.2.31**. [Open the free web patcher](https://niceliketry
 - **RNG Fix** — Uses Ruby and Sapphire’s clock-based startup seeding.
 - **Walking partners** — Bring any of the 251 Pokémon along, including shiny variants.
 - **Battle Frontier** — Challenge seven facilities with link battles, recordings, and original Emerald music.
-- **Secret Bases** — Find 27 entrances, decorate your base, and visit and battle in other bases.
+- **Secret Bases** — Find 28 entrances, decorate your base, and visit and battle in other bases.
 - **Celadon Contests** — Compete in five categories and four ranks for ribbons and paintings.
 - **Pokéblocks** — Blend berries with NPCs or link partners, then feed your Pokémon.
 - **Berry gardening** — Plant, water, and harvest berries in 22 beds using the Goldeen Canteen.
@@ -24,7 +24,7 @@ The current beta is **v0.2.31**. [Open the free web patcher](https://niceliketry
 - **Tree Shaker** — Find encounters in trees, inspired by Gen 2 Headbutt.
 - **Safari Zone** — Catch all three Johto starters.
 - **Sevii encounters** — Find the original FireRed rosters, plus an activated Gen 2 roster in Altering Cave.
-- **Wild odds** — Eligible species have equal odds, with dedicated nighttime Ghost rates.
+- **Wild odds** — Listed rare encounters have 5%; nighttime grass and trees reserve 5% for Gastly and 1% for Haunter, with remaining odds shared evenly.
 - **Berry Forest** — Ground berries respawn in half the usual steps.
 - **Bookcase hints** — Search bookcases for Gen 2 Pokémon locations.
 - **Early gifts** — Find a Lucky Egg, Bill's Eevee, and FLASH from Lt. Surge.
