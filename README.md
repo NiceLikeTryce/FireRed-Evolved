@@ -1,4 +1,4 @@
-# Pokémon FireRed Evolved [BETA]
+# FireRed Evolved
 
 Current version: **v0.2.31**. Future releases use three-part version numbers.
 
@@ -6,12 +6,12 @@ Current version: **v0.2.31**. Future releases use three-part version numbers.
 
 You need your own **clean US/English FireRed v1.0 or v1.1 ROM**.
 
-1. Open the [**free web patcher**](https://niceliketryce.github.io/Pokemon-FireRed-Evolved/).
+1. Open the [**free web patcher**](https://niceliketryce.github.io/FireRed-Evolved/).
 2. Drop or select your clean FireRed .gba file.
 3. Click **Patch and download**.
 4. Open the new game in your GBA emulator.
 
-**Future Updates:** [download the newest BPS here](https://github.com/NiceLikeTryce/Pokemon-FireRed-Evolved/releases/)
+**Future Updates:** [download the newest BPS here](https://github.com/NiceLikeTryce/FireRed-Evolved/releases/)
 
 
 ## What's in FireRed Evolved?
@@ -53,7 +53,7 @@ You need your own **clean US/English FireRed v1.0 or v1.1 ROM**.
 - **Catch #1-150:** Mew under the truck.
 - **Catch #1-250:** Oak returns the GEN SYNC GS Ball; catch Celebi on Faraway Island. Only this ball works; it cannot be held or discarded.
 
-Still in **BETA**. [Report bugs or get help](https://github.com/NiceLikeTryce/Pokemon-FireRed-Evolved/issues).
+Still in **BETA**. [Report bugs or get help](https://github.com/NiceLikeTryce/FireRed-Evolved/issues).
 
 BPS patches and free web-patcher source are distributed here.
 

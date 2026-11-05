@@ -1,4 +1,4 @@
-# Pokemon FireRed Evolved
+# FireRed Evolved
 
 ## Pokemon and Pokedex
 - All 251 Gen1 and Gen2 Pokemon are obtainable.
