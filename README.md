@@ -1,62 +1,56 @@
 # FireRed Evolved
 
-Current version: **v0.2.31**. Future releases use three-part version numbers.
+FireRed Evolved expands the original Kanto adventure on Game Boy Advance.
+The current beta is **v0.2.31**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
 
-## HOW TO PLAY
+## Major features
 
-You need your own **clean US/English FireRed v1.0 or v1.1 ROM**.
+- **All 251 Pokémon** — Catch and collect every Gen 1 and Gen 2 species on one save, including LeafGreen exclusives.
+- **Bigger battle rewards** — Earn bonus items, stronger TMs, and unlocks from Gyms and major battles.
+- **RNG Fix** — Uses Ruby and Sapphire’s clock-based startup seeding.
+- **Walking partners** — Bring any of the 251 Pokémon along, including shiny variants.
+- **Battle Frontier** — Challenge seven facilities with link battles, recordings, and original Emerald music.
+- **Secret Bases** — Find 27 entrances, decorate your base, and visit and battle in other bases.
+- **Celadon Contests** — Compete in five categories and four ranks for ribbons and paintings.
+- **Pokéblocks** — Blend berries with NPCs or link partners, then feed your Pokémon.
+- **Berry gardening** — Plant, water, and harvest berries in 22 beds using the Goldeen Canteen.
 
-1. Open the [**free web patcher**](https://niceliketryce.github.io/FireRed-Evolved/).
-2. Drop or select your clean FireRed .gba file.
-3. Click **Patch and download**.
-4. Open the new game in your GBA emulator.
+## Minor features
 
-**Future Updates:** [download the newest BPS here](https://github.com/NiceLikeTryce/FireRed-Evolved/releases/)
+- **A changing world** — Real-time day and night and weather change Kanto's scenery.
+- **Habitat Guide** — Look up Pokémon locations, encounter odds, levels, and unlock conditions.
+- **Training tools** — Check IVs and EVs, reuse longer Repels, and hatch eggs faster with Magma Armor or Flame Body.
+- **Easier evolutions** — Use Bill's trade-backs, Sun and Moon Stones for Eevee, and missed-move learning.
+- **Tree Shaker** — Find encounters in trees, inspired by Gen 2 Headbutt.
+- **Safari Zone** — Catch all three Johto starters.
+- **Sevii encounters** — Find the original FireRed rosters, plus an activated Gen 2 roster in Altering Cave.
+- **Wild odds** — Eligible species have equal odds, with dedicated nighttime Ghost rates.
+- **Berry Forest** — Ground berries respawn in half the usual steps.
+- **Bookcase hints** — Search bookcases for Gen 2 Pokémon locations.
+- **Early gifts** — Find a Lucky Egg, Bill's Eevee, and FLASH from Lt. Surge.
+- **Acro Bike** — Hop ledges in either direction after becoming Champion.
+- **Mirage Island** — Follow Mom's hint to a new ferry destination after becoming Champion.
+- **Legendary encounters** — See roaming beasts in grass and retry legendary encounters until you catch them.
 
+<details>
+<summary>Reward milestones and RNG tool notes</summary>
 
-## What's in FireRed Evolved?
+- **Gym rewards** — Leaders give bonus items and stronger TMs. Brock gives Secret Power.
+- **Normal Elite Four** — Unlock the Battle Frontier, Acro Bike, legendary beasts, Sudowoodo, second fossil and Dojo Pokémon, and Leftovers for Jaime's Toasted Tea quest.
+- **Hard Elite Four** — Unlock Oak's Challenge. Winning earns the Mystic Ticket for Navel Rock and its Ho-Oh and Lugia encounters.
+- **Catch #1–150** — Meet Mew under the truck.
+- **Catch #1–250** — Receive Oak's Gen Sync GS Ball to catch Celebi on Faraway Island.
+- **PokeFinder** — The documented compatible methods are eggs, gifts, and Gen 1 static encounters. Wild and Gen 2 static encounters use different methods.
 
+</details>
 
-**Major Changes**
-- **Walking partners:** all 251 Pokemon follow you, with shiny colors and contextual reactions.
-- **All 251 Pokémon:** including Gen2 & LeafGreen exclusives.
-- **Walking Partners:** all 251 Pokemon follow you, with shiny colors and contextual reactions.
-- **Battle Frontier:** Link battles, recordings and original Emerald music.
-- **Secret Bases:** 27 entrances across Kanto, islands and towns; decorate, shop, visit and battle.
-- **Celadon Contests:** five categories, four ranks, ribbons and paintings.
-- **Pokéblocks:** blend berries with NPCs or link partners, then feed Pokemon.
-- **Berry Bardening:** 22 beds across Kanto and the islands; plant, water with the GOLDEEN CANTEEN and harvest.
-- **GOLDEEN CANTEEN:** Wailmer Pail replacement. A tool used for watering BERRIES and plants.
-- **A Changing World:** real-time day/night & weather.
-- **TREE SHAKER:** mimics Gen2 Headbutt Tree mechanic.
-- **Acro Bike:** Mom's postgame gift; hop ledges both ways.
+## How to play
 
-**Minor Changes**
-- **Berry Forest Berries:** ground berries respawn in half the usual steps.
-- **Mirage Island:** unlocked after Normal Champion, with Mom's hint and ferry access.
-- **Johto Starters:** All available in the Safari Zone.
-- **Sevii Encounters:** vanilla FireRed species and levels; Altering Cave keeps its activated Gen2 roster.
-- **Wild Odds:** equal chances between eligible species; nighttime Ghost rates stay intact.
-- **Bookcase Hints:** reveal Gen2 PKMN locations by searching bookcases.
-- **Pokédex Habitat Guide:** view acquisition locations, odds, levels and unlock conditions in-game.
-- **Early Gifts:** bedroom Lucky Egg, Tree Shaker, Bill's Eevee, gym bonus rewards and Lt. Surge's FLASH.
-- **Easier Evolutions:** Bill's trade-backs, Eevee Sun/Moon Stones and missed-move learning.
-- **Better Training:** IV/EV viewer, longer Repels, reuse Repels, faster eggs with Magma Armor/Flame Body.
-- **Legendaries:** roaming beast visible in grass; legendaries return until caught; roaming bugs fixed.
-- **Shiny hunting:** Ruby/Sapphire-style RNG. (In PokeFinder **only these work:** Eggs, Gifts, & Gen1 Statics. Wild and Gen2 Static **don't**)
+1. Bring your own clean US/English FireRed v1.0 or v1.1 ROM.
+2. Open the [free web patcher](https://niceliketryce.github.io/FireRed-Evolved/) and select your ROM.
+3. Choose **Patch and download**, then open the patched file in your GBA emulator.
 
-**Bigger Rewards**
-- **Gym Rewards:** bonus items and the strongest same-type TMs; Brock gives Secret Power.
-- **Normal Elite Four:** Battle Frontier, Acro Bike, legendary beasts, Sudowoodu, 2nd fossil/Dojo PKMN, Leftovers for JAIME's TOASTED TEA quest.
-- **Hard Elite Four:** Oak's Challenge.
-- **Beat Oak's Challenge:** MYSTIC TICKET for Navel Rock's Ho-Oh/Lugia.
-- **Catch #1-150:** Mew under the truck.
-- **Catch #1-250:** Oak returns the GEN SYNC GS Ball; catch Celebi on Faraway Island. Only this ball works; it cannot be held or discarded.
+Both base revisions produce the same game. Your ROM stays on your device.
+For offline patching, get the matching BPS from [Releases](https://github.com/NiceLikeTryce/FireRed-Evolved/releases/latest).
 
-Still in **BETA**. [Report bugs or get help](https://github.com/NiceLikeTryce/FireRed-Evolved/issues).
-
-BPS patches and free web-patcher source are distributed here.
-
-No ROMs are supplied. Only the current BPS release is included.
-
-[Full feature list](FEATURES.txt).
+[Full feature list](FEATURES.txt) · [Report a bug or get help](https://github.com/NiceLikeTryce/FireRed-Evolved/issues)
