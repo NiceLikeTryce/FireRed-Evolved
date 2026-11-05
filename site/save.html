@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'">
+  <title>Move your save | FireRed Evolved</title>
+  <link rel="stylesheet" href="style.css"><script type="module" src="save-ui.mjs"></script>
+</head>
+<body><main>
+  <p class="eyebrow">ONE ADVENTURE · TWO EDITIONS</p>
+  <h1>Move your save.</h1>
+  <p>Continue the same adventure in FireRed Evolved for GBA or FireRed Evolv3D for Nintendo 3DS.</p>
+  <section aria-labelledby="save-heading">
+    <h2 id="save-heading">Keep your progress</h2>
+    <p id="save-version">Loading the current editions…</p>
+    <label for="save-file">1. Select your battery save</label>
+    <input id="save-file" type="file" accept=".sav,.srm" disabled>
+    <p class="small">Use the 128 KiB save file, not a quick-save or emulator save state. Original US/English FireRed v1.0/v1.1 saves are supported. The tool checks integrity; saves do not identify their ROM revision. Files stay in your browser.</p>
+    <label for="save-origin">2. Which game is the save from?</label>
+    <select id="save-origin"><option value="evolved">FireRed Evolved / FireRed Evolv3D</option><option value="vanilla">Original FireRed (US/English)</option></select>
+    <label for="save-destination">3. Continue on</label>
+    <select id="save-destination"><option value="3ds">Nintendo 3DS — FireRed Evolv3D</option><option value="gba">Game Boy Advance — FireRed Evolved</option></select>
+    <button id="save-download" disabled>Download save transfer package</button>
+    <p id="save-status" role="status" aria-live="polite"></p>
+  </section>
+  <section aria-labelledby="copy-heading">
+    <h2 id="copy-heading">After downloading</h2>
+    <ol><li>Close the game and back up its current save.</li><li>Extract the ZIP. It contains your transferred save, an untouched backup and instructions.</li><li id="save-instructions">For 3DS, copy game.sav into /3ds/FireRedEvolved/ on the SD card or emulator SD folder.</li><li>Start the game and choose Continue.</li></ol>
+    <p class="small">Party, storage, items, story progress and supported extra game data move together. 3DS settings, randomizer settings and tracker sidecars stay with the 3DS installation.</p>
+  </section>
+  <footer><a href="./">Back to the patcher hub</a> · <a href="guide.html">Controls and save guide</a></footer>
+</main></body></html>

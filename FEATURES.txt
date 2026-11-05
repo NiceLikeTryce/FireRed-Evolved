@@ -16,13 +16,13 @@
 - Mr. Mime appears in Route 21 grass at Lv28-30 outside Night.
 - Jynx appears on Seafoam Islands B2F/B4F at Lv37-39.
 - Lickitung appears in Safari Zone East grass at Lv25 and Lv28.
-- All wild, gift, trade, trainer, Contest and Frontier Pokemon stay within #1-#251.
-- Incense breeding produces Marill or Wobbuffet; no Gen3 hatchlings.
+- Native wild, gift, trainer, Contest and Frontier rosters retain their original #1-#251 placements.
+- Standard Azurill/Wynaut incense breeding unlocks after Celio's Ruby/Sapphire quest.
 - Altering Cave supports Nintendo's eight Gen2 species.
 - Original FireRed Sevii Gen2 encounters are restored.
 - Listed vanilla 1% species have a 5% share in their original encounter pools, with equal odds for the remaining species.
 - Other wild pools retain equal species odds across generations and preserve nighttime Ghost odds.
-- Pokedex entries, sorting, searches and counts stop at #251.
+- National Pokedex entries, sorting, searches and counts support #1-#386 after Celio's quest.
 - Gen2 entries, capture pages and Summary/Hall of Fame numbers appear early.
 - Pokedex completion checks count only caught #1-#251.
 - Oak's completion ratings, diploma and national card checks require all 251.
@@ -65,7 +65,7 @@
 - Celadon 4F stocks all six stones and four non-stone evolution items; each non-stone costs Â¥50,000.
 - Celadon also sells Sun Stones and Moon Stones.
 - Sun Stones can be found in Mt. Moon and Pokemon Mansion.
-- Incoming trades reject Gen3 species and introduced items.
+- Gen3 Pokemon and legal held items can be traded after Celio's Ruby/Sapphire quest.
 
 - Gift nickname prompts identify the correct Pokemon.
 
@@ -414,3 +414,8 @@
 - Save windows stay bright at night while outdoor scenery keeps its night tint.
 - Oak leaves Cerulean Cave with a fade after finishing his victory dialogue.
 - Game downloads use three-part version numbers.
+
+- Gen3 Pokemon, legal held-item trades and National Dex entries unlock after Celio's original Ruby/Sapphire quest.
+- Mew requires caught #001-150; Celebi's ticket requires caught #001-250. Gen3 catches do not replace either range.
+- Shared gameplay synchronizes automatically; coordinated releases block mismatched source inputs.
+- The web hub builds GBA or 3DS from one clean ROM and offers backed-up save transfer, vanilla FireRed import, controls and actual gameplay screenshots.

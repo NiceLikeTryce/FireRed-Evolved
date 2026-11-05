@@ -1,9 +1,11 @@
 # FireRed Evolved
 
 FireRed Evolved expands the original Kanto adventure on Game Boy Advance.
-The current beta is **v0.2.34**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
+The current beta is **v0.2.35**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
 
 ## Major features
+
+- **Postgame Gen3 support** — Trade Gen3 Pokémon and legal held items after Celio’s Ruby/Sapphire quest; restore incense breeding and National Dex entries.
 
 - **All 251 Pokémon** — Catch and collect every Gen 1 and Gen 2 species on one save, including LeafGreen exclusives.
 - **Bigger battle rewards** — Earn bonus items, stronger TMs, and unlocks from Gyms and major battles.
@@ -44,6 +46,10 @@ The current beta is **v0.2.34**. [Open the free web patcher](https://niceliketry
 
 </details>
 
+## Move your save
+
+Use the [save transfer tool](https://niceliketryce.github.io/FireRed-Evolved/save.html) to move between GBA and 3DS, or import an original US/English FireRed battery save. Each package includes an untouched backup. Read the [controls and save guide](https://niceliketryce.github.io/FireRed-Evolved/guide.html).
+
 ## How to play
 
 1. Bring your own clean US/English FireRed v1.0 or v1.1 ROM.
@@ -54,3 +60,11 @@ Both base revisions produce the same game. Your ROM stays on your device.
 For offline patching, get the matching BPS from [Releases](https://github.com/NiceLikeTryce/FireRed-Evolved/releases/latest).
 
 [Full feature list](FEATURES.txt) · [Report a bug or get help](https://github.com/NiceLikeTryce/FireRed-Evolved/issues)
+
+## Gameplay gallery
+
+![Native voxel overworld](site/gallery/native-overworld.png)
+
+![Native voxel battle](site/gallery/native-battle.png)
+
+![Native touch-screen party](site/gallery/native-party.png)

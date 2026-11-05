@@ -1,40 +1,27 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Free FireRed Evolved BPS patcher for clean US/English FireRed v1.0 and v1.1.">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'">
-  <title>FireRed Evolved</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="vendor/rom-patcher-js/modules/BinFile.js"></script>
-  <script defer src="vendor/rom-patcher-js/modules/HashCalculator.js"></script>
-  <script defer src="vendor/rom-patcher-js/modules/RomPatcher.format.bps.js"></script>
-  <script defer src="app.js?v=43ac9ae"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Build FireRed Evolved for GBA or FireRed Evolv3D for Nintendo 3DS from your clean FireRed ROM. Transfer your save and keep the adventure going.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'">
+<title>FireRed Evolved &amp; Evolv3D | Play your way</title>
+<link rel="stylesheet" href="style.css"><script type="module" src="hub.mjs"></script>
 </head>
-<body>
-  <main>
-    <div class="topbar">
-      <p class="eyebrow">FREE BPS PATCHING &middot; NO INSTALLATION</p>
-      <button id="theme" class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="true">Light mode</button>
-    </div>
-    <h1>FireRed Evolved</h1>
-    <p id="version">Loading the current patch&hellip;</p>
-    <section id="drop-zone" aria-label="Patch your game">
-      <h2 id="selected">Patch your game</h2>
-      <p>FireRed v1.0 or v1.1 is detected automatically.</p>
-      <label for="rom">1. Drop or select your clean US/English FireRed ROM</label>
-      <input id="rom" type="file" accept=".gba" disabled>
-      <button id="apply" disabled>2. Patch and download</button>
-      <p id="status" role="status" aria-live="polite"></p>
-    </section>
-    <p>Open the downloaded game in your GBA emulator.</p>
-    <p class="small">Updates: apply the latest BPS to your original clean ROM. Keep your save backup; match its filename to the new game.</p>
-    <footer>
-      <a id="download" href="https://github.com/NiceLikeTryce/FireRed-Evolved/releases/latest">Download BPS patches</a>
-      <span> &middot; </span><a href="https://github.com/NiceLikeTryce/FireRed-Evolved">Instructions</a>
-      <span> &middot; </span><a href="https://github.com/marcrobledo/RomPatcher.js">Rom Patcher JS</a>
-    </footer>
-  </main>
-</body>
-</html>
+<body><main class="hub">
+<header class="topbar"><a class="brand" href="./">FireRed Evolved <span>+ Evolv3D</span></a><nav aria-label="Main"><a href="save.html">Move your save</a><a href="guide.html">Controls</a><button id="theme" class="theme-toggle" aria-pressed="true">Light mode</button></nav></header>
+<div class="hero"><p class="eyebrow">ONE ADVENTURE. TWO WAYS TO PLAY.</p><h1>Kanto, evolved.</h1><p class="hero-copy">Catch all 251 Gen 1 and Gen 2 Pokémon. Take on the Battle Frontier. Make it your adventure — in classic pixels or voxel 3D.</p><p id="version" class="version-pill">Loading the current editions…</p></div>
+<div class="build-layout">
+<section id="drop-zone" aria-labelledby="selected">
+<div class="edition-switch" aria-label="Choose your edition"><button id="edition-gba" aria-pressed="true">GBA <span>FireRed Evolved</span></button><button id="edition-3ds" aria-pressed="false">Nintendo 3DS <span>FireRed Evolv3D</span></button></div>
+<p id="edition-description">The classic GBA adventure, expanded.</p>
+<h2 id="selected">Choose your FireRed ROM</h2><p>Use your clean US/English FireRed v1.0 or v1.1. The revision is detected automatically.</p>
+<label for="rom">Select a ROM, or drop it here</label><input id="rom" type="file" accept=".gba" disabled>
+<button id="apply" disabled>Build and download .gba</button><p id="status" role="status" aria-live="polite"></p>
+<p class="small">Already playing? <a href="save.html">Move your save between editions.</a></p>
+</section>
+<aside class="edition-notes"><h2>Same journey.<br>Different perspective.</h2><p><strong>FireRed Evolved</strong> keeps the classic GBA presentation, with expanded encounters, rewards, followers and more.</p><p><strong>FireRed Evolv3D</strong> brings that adventure to Nintendo 3DS with a voxel world, 3D battles and touch-screen menus.</p><a href="#gallery">See the game ↓</a><p class="small">For GBA, open the .gba in your emulator. For 3DS, use Azahar or place the .3dsx in /3ds/FireRedEvolved/ on your SD card.</p></aside>
+</div>
+<section id="gallery" class="gallery" aria-labelledby="gallery-heading"><p class="eyebrow">FROM THE GAME</p><h2 id="gallery-heading">A new view of a familiar world.</h2><div class="gallery-grid" id="gallery-grid"><figure><img src="gallery/native-overworld.png" alt="Explore routes, towns and interiors in native 3D." loading="lazy" width="800" height="480"><figcaption><strong>Voxel Kanto</strong><br>Explore routes, towns and interiors in native 3D.</figcaption></figure><figure><img src="gallery/native-battle.png" alt="Fight in a voxel arena with the original battle interface." loading="lazy" width="800" height="480"><figcaption><strong>A different perspective</strong><br>Fight in a voxel arena with the original battle interface.</figcaption></figure><figure><img src="gallery/native-party.png" alt="Manage your party with the native bottom-screen interface." loading="lazy" width="800" height="480"><figcaption><strong>Touch-screen menus</strong><br>Manage your party with the native bottom-screen interface.</figcaption></figure><figure><img src="gallery/gba-exploration.png" alt="Keep the original presentation with the same shared gameplay updates." loading="lazy" width="800" height="480"><figcaption><strong>Classic GBA, expanded</strong><br>Keep the original presentation with the same shared gameplay updates.</figcaption></figure></div></section>
+<section class="help-grid"><div><h2>Keep your adventure.</h2><p>Bring your party, storage and progress to the other edition. The save tool includes an untouched backup.</p><a class="text-cta" href="save.html">Open save transfer →</a></div><div><h2>Get comfortable.</h2><p>Find the controls, camera options and steps for starting or updating your game.</p><a class="text-cta" href="guide.html">Read the play guide →</a></div></section>
+<footer><p>FireRed Evolved / FireRed Evolv3D</p><a href="https://github.com/NiceLikeTryce/FireRed-Evolved">GBA project</a> · <a href="https://github.com/NiceLikeTryce/FireRed-Evolv3D">3DS project</a> · <a href="https://github.com/NiceLikeTryce/FireRed-Evolved/releases/latest">Offline GBA patches</a> · <a href="https://github.com/marcrobledo/RomPatcher.js">Rom Patcher JS</a></footer>
+</main></body></html>
