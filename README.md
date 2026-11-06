@@ -67,7 +67,7 @@ For offline patching, get the matching BPS from [Releases](https://github.com/Ni
 
 ## Gameplay gallery
 
-![Native voxel overworld](site/gallery/native-overworld.png)
+![Pallet Town house with corrected voxel roof](site/gallery/pallet-house-roof.png)
 
 ![Native voxel battle](site/gallery/native-battle.png)
 

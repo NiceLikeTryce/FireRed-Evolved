@@ -22,6 +22,11 @@
       "textLF": false
     },
     {
+      "path": "gallery/pallet-house-roof.png",
+      "sha256": "a32f8ec52a005b34a928c53b67a2e21cfeec0a311e5391dfdc73c652f76d30ec",
+      "textLF": false
+    },
+    {
       "path": "gba-worker.js",
       "sha256": "0a010cff9ea423aea5d0d58d2c180b19d3c15f5e40e4453ba735c28398b03daa",
       "textLF": true
@@ -43,7 +48,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "86db7d636e411ae7946dad327efd1c857cedc0098bfe2eef6c17ffe945f9754c",
+      "sha256": "82276c56adbf6fda1a7784733ded2d389c82d35580959ec91a73f545c6b58c31",
       "textLF": true
     },
     {
