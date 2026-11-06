@@ -1,7 +1,7 @@
 # FireRed Evolved
 
 FireRed Evolved expands the original Kanto adventure on Game Boy Advance.
-The current beta is **v0.2.36**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
+The current release package is **v0.2.37**. The GBA build remains **v0.2.36**; this package repairs the 3DS Pallet house roof. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
 
 ## Major features
 

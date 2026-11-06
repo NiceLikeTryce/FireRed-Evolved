@@ -41,8 +41,8 @@ $('apply').addEventListener('click',()=>{
     if(data.error){status(data.error,true);finish();return;}
     if(!(data.output instanceof ArrayBuffer)){status('The builder returned an invalid download.',true);finish();return;}
     const blob=new Blob([data.output],{type:'application/octet-stream'}),url=URL.createObjectURL(blob),link=document.createElement('a');
-    link.href=url;link.download=`${chosen==='gba'?'FireRed_Evolved':'FireRed_Evolv3D'}_${manifests[chosen].version}.${editions[chosen].extension}`;link.click();
-    setTimeout(()=>URL.revokeObjectURL(url),10000);status(`${editions[chosen].name} ${manifests[chosen].version} is ready. Your download has started.`);finish();
+    link.href=url;link.download=`${chosen==='gba'?'FireRed_Evolved':'FireRed_Evolv3D'}_${manifests[chosen].game_build_version||manifests[chosen].version}.${editions[chosen].extension}`;link.click();
+    setTimeout(()=>URL.revokeObjectURL(url),10000);status(`${editions[chosen].name} ${manifests[chosen].game_build_version||manifests[chosen].version} is ready. Your download has started.`);finish();
   };
   const input=rom.slice(0);worker.postMessage({rom:input,manifest:manifests[edition]},[input]);
 });
@@ -50,7 +50,8 @@ refresh();
 try{
   const [gba,native]=await Promise.all(['release.json','/FireRed-Evolv3D/release.json'].map(async url=>{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Current release information is unavailable.');return r.json();}));
   if(!/^v\d+\.\d+\.\d+$/.test(gba.version)||gba.version!==native.version)throw Error('A coordinated update is being published. Please try again shortly.');
+  if(gba.game_build_version!==undefined&&!/^v\d+\.\d+\.\d+$/.test(gba.game_build_version))throw Error('Invalid GBA build version.');
   if(gba.target_size!==16777216||!Array.isArray(gba.sources)||gba.sources.length!==2||!gba.sources.every(s=>['v1.0','v1.1'].includes(s.revision)&&/^[a-f0-9]{40}$/.test(s.base_sha1)&&/^[a-f0-9]{64}$/.test(s.patch_sha256)&&/^[A-Za-z0-9_.-]+\.bps$/.test(s.patch)))throw Error('Invalid GBA release information.');
   if(native.distribution_scope!=='public-patch-data'||!Array.isArray(native.sources)||native.sources.length!==2||!native.sources.every(s=>/^[a-f0-9]{64}$/.test(s.sha256)))throw Error('Invalid 3DS release information.');
-  manifests={gba,'3ds':native};$('version').textContent=`Both editions · ${gba.version}`;status('');refresh();
+  manifests={gba,'3ds':native};$('version').textContent=`Release package · ${gba.version}`;status('');refresh();
 }catch(error){status(error.message,true);}
