@@ -69,7 +69,7 @@ For offline patching, get the matching BPS from [Releases](https://github.com/Ni
 
 ![Pallet Town house with corrected voxel roof](site/gallery/pallet-house-roof.png)
 
-![Native voxel battle](site/gallery/native-battle.png)
+![Native voxel battle](site/gallery/voxel-arena-hud.png)
 
 ![Native touch-screen party](site/gallery/native-party.png)
 

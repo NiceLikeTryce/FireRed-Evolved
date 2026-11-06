@@ -27,6 +27,11 @@
       "textLF": false
     },
     {
+      "path": "gallery/voxel-arena-hud.png",
+      "sha256": "89a3b82310ee65257da37eac55139c0746ebe0ff883fd07ebe2e375c0b8ce1bd",
+      "textLF": false
+    },
+    {
       "path": "gba-worker.js",
       "sha256": "0a010cff9ea423aea5d0d58d2c180b19d3c15f5e40e4453ba735c28398b03daa",
       "textLF": true
@@ -48,7 +53,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "82276c56adbf6fda1a7784733ded2d389c82d35580959ec91a73f545c6b58c31",
+      "sha256": "0f2ea8c52b07f3a92793351d0fd509473df049debed75834ef429b2bd4ee50bf",
       "textLF": true
     },
     {
