@@ -1,12 +1,42 @@
-import {inspectSave,prepareTransfer,prepareVanillaImport} from './save-tools.mjs';
+import {inspectSave,prepareTransfer,prepareVanillaImport,previewTrainer} from './save-tools.mjs';
 import {zipFiles} from './zip.mjs';
+import {listBackups,keepBackup,loadBackup} from './save-vault.mjs';
 const $=id=>document.getElementById(id);
 let version,bytes,selection=0;
 const status=(text,error=false)=>{$('save-status').textContent=text;$('save-status').dataset.state=error?'error':'success';};
 const instructions=()=>{$('save-instructions').textContent=$('save-destination').value==='3ds'
   ?'For 3DS, copy game.sav into /3ds/FireRedEvolved/ on the SD card or emulator SD folder.'
   :'For GBA, put the .sav beside the patched .gba with the same filename, or use your emulator’s battery-save import.';};
-function refresh(){ $('save-download').disabled=!version||!bytes;instructions(); }
+function describe(preview){return `${preview.name} · ID ${String(preview.trainerId).padStart(5,'0')} · ${preview.hours}h ${String(preview.minutes).padStart(2,'0')}m · ${preview.badges}/8 badges · ${preview.party} in party`;}
+function refresh(){
+  $('save-download').disabled=!version||!bytes;$('save-backup').disabled=!bytes;
+  $('trainer-preview').textContent=bytes?describe(previewTrainer(bytes)):'';instructions();
+}
+async function showVault(){
+  try{
+    const rows=await listBackups(),root=$('save-vault');root.replaceChildren();
+    for(const row of rows){
+      const card=document.createElement('article'),details=document.createElement('p'),button=document.createElement('button');
+      details.textContent=`${describe(previewTrainer(row.bytes))} · ${new Date(row.createdAt).toLocaleString()}`;
+      button.textContent=`Select ${row.preview.name}'s backup`;
+      button.addEventListener('click',async()=>{
+        try{
+          const checked=await loadBackup(row.id);bytes=new Uint8Array(checked.bytes);selection++;
+          $('save-origin').value=inspectSave(bytes).kind==='evolved'?'evolved':'vanilla';refresh();
+          status('Backup selected. Review the trainer above, choose the destination, then download the restore package.');
+          $('trainer-preview').scrollIntoView({block:'center',behavior:'smooth'});
+        }catch(error){$('vault-status').textContent=error.message;}
+      });card.append(details,button);root.append(card);
+    }
+    if(!rows.length)root.textContent='No browser backups yet.';
+  }catch{ $('vault-status').textContent='Browser backup storage is unavailable. Download and keep a save transfer package instead.'; }
+}
+$('save-backup').addEventListener('click',async()=>{
+  if(!bytes)return;
+  try{await keepBackup(bytes,version||'unknown');$('vault-status').textContent='Backup kept with an integrity hash. The latest five saves per trainer are retained.';await showVault();}
+  catch{$('vault-status').textContent='The backup could not be stored. Your original is unchanged; download a transfer package instead.';}
+});
+showVault();
 try{
   const [gba,native]=await Promise.all(['release.json','/FireRed-Evolv3D/release.json'].map(async url=>{
     const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Current game information is unavailable.');return r.json();

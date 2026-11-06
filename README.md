@@ -1,7 +1,7 @@
 # FireRed Evolved
 
 FireRed Evolved expands the original Kanto adventure on Game Boy Advance.
-The current beta is **v0.2.35**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
+The current beta is **v0.2.36**. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
 
 ## Major features
 
@@ -10,12 +10,16 @@ The current beta is **v0.2.35**. [Open the free web patcher](https://niceliketry
 - **All 251 Pokémon** — Catch and collect every Gen 1 and Gen 2 species on one save, including LeafGreen exclusives.
 - **Bigger battle rewards** — Earn bonus items, stronger TMs, and unlocks from Gyms and major battles.
 - **RNG Fix** — Uses Ruby and Sapphire’s clock-based startup seeding.
-- **Walking partners** — Bring any of the 251 Pokémon along, including shiny variants.
+- **Walking partners** — Bring any of the 386 species along, including shiny variants after the normal postgame unlocks.
 - **Battle Frontier** — Challenge seven facilities with link battles, recordings, and original Emerald music.
 - **Secret Bases** — Find 28 entrances, decorate your base, and visit and battle in other bases.
 - **Celadon Contests** — Compete in five categories and four ranks for ribbons and paintings.
 - **Pokéblocks** — Blend berries with NPCs or link partners, then feed your Pokémon.
 - **Berry gardening** — Plant, water, and harvest berries in 22 beds using the Goldeen Canteen.
+
+- **Reward progress** — See exact Mew/Celebi catch totals, missing species and habitats.
+- **Save backups** — Keep five recent backups per trainer and preview before restoring.
+- **Offline builder** — Prepare a verified offline pack, then build either edition without a connection.
 
 ## Minor features
 

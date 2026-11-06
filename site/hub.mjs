@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-const editions={gba:{name:'FireRed Evolved',extension:'gba',worker:'gba-worker.js'},'3ds':{name:'FireRed Evolv3D',extension:'3dsx',worker:'/FireRed-Evolv3D/worker.js'}};
+const editions={gba:{name:'FireRed Evolved',extension:'gba',worker:'gba-worker.js'},'3ds':{name:'FireRed Evolv3D',extension:'3dsx',worker:'native-worker.js'}};
 let edition=new URLSearchParams(location.search).get('platform')==='3ds'?'3ds':'gba';
 let manifests,rom,busy=false,checking=false,generation=0,worker;
 const digest=async(name,bytes)=>Array.from(new Uint8Array(await crypto.subtle.digest(name,bytes)),b=>b.toString(16).padStart(2,'0')).join('');

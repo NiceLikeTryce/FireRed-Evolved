@@ -31,11 +31,12 @@
 - Gen2 habitat maps work before National Dex.
 - Separate encounter and acquisition guides cover all 251 Pokemon.
 - Press SELECT on a Pokemon's area map to open its source-based Habitat Guide.
+- Pokedex Reward progress lists exact Mew/Celebi catch counts and missing species with habitat links.
 
 ## Walking Pokemon
 - Followers follow forced scripted walks while controls are locked.
 - Followers hide during Pokemon Center healing and return afterward.
-- All 251 Pokemon have walking followers and shiny palettes.
+- All 386 Pokemon have walking followers and shiny palettes; Gen3 follows after Celio's Ruby/Sapphire quest.
 - Followers match the nighttime color rules for other characters.
 - Followers face their travel direction and keep up while running and turning.
 - Followers jump ledges with you, including when you stop after landing.
@@ -419,3 +420,7 @@
 - Mew requires caught #001-150; Celebi's ticket requires caught #001-250. Gen3 catches do not replace either range.
 - Shared gameplay synchronizes automatically; coordinated releases block mismatched source inputs.
 - The web hub builds GBA or 3DS from one clean ROM and offers backed-up save transfer, vanilla FireRed import, controls and actual gameplay screenshots.
+
+- The web save manager keeps five verified backups per trainer and previews trainer details before restoration.
+- Verified patch packages can be kept for offline use after initial setup.
+- Four Island preserves the rival arrival and repairs stale rival visibility after revisits or reloading.

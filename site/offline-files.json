@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "gallery/gba-exploration.png",
+      "sha256": "b40e2f58cd37a0b51c927127ac3015d4edf5033e4d9cfb980568d6861403ab11",
+      "textLF": false
+    },
+    {
+      "path": "gallery/native-battle.png",
+      "sha256": "9552841a188c100a495fbe63b888c30c706438f044aff0d138f20c3991d0512b",
+      "textLF": false
+    },
+    {
+      "path": "gallery/native-overworld.png",
+      "sha256": "471ef83818881eaeeda011bb56bb281eb11d6963e6e1a78f10f6a5f02dc903d6",
+      "textLF": false
+    },
+    {
+      "path": "gallery/native-party.png",
+      "sha256": "74a689ffcb70cce0c161c63f49ded3fdc74a1bf3b118bf89925886bde241b2d7",
+      "textLF": false
+    },
+    {
+      "path": "gba-worker.js",
+      "sha256": "0a010cff9ea423aea5d0d58d2c180b19d3c15f5e40e4453ba735c28398b03daa",
+      "textLF": true
+    },
+    {
+      "path": "guide.html",
+      "sha256": "8f55c23e51ef7297081fc5d1f65bdd553fc1ddf5cb7f04efcb166bb6fc70cac9",
+      "textLF": true
+    },
+    {
+      "path": "hub-info.json",
+      "sha256": "5ef2a4d554953f8a389735d0c9c2874eab7467fb73e00dab288bd86237f239ad",
+      "textLF": false
+    },
+    {
+      "path": "hub.mjs",
+      "sha256": "3961ccd29ccded0027d91396e80e40fd31b1e96885c61b84a2846b800f266f7a",
+      "textLF": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "3ebf590b6c2f1845cc18df3792495223ffc24e433724d20ab328bfee4f4754ff",
+      "textLF": true
+    },
+    {
+      "path": "native-worker.js",
+      "sha256": "3e34ede0934a29f220bf81d5655972a6d56660f1585312ea447edd2f5c0b232b",
+      "textLF": true
+    },
+    {
+      "path": "offline-ui.mjs",
+      "sha256": "aadaf2cd49ddb441b1100dd1428f1605e701e6011dc0f33479d1536069bd4e1e",
+      "textLF": true
+    },
+    {
+      "path": "offline.mjs",
+      "sha256": "3e2e278f9d14fe4c790a457a5cbad3c6f6acb4ab18ad0c63033281700106b78b",
+      "textLF": true
+    },
+    {
+      "path": "save-tools.mjs",
+      "sha256": "651a9c40156373caa7e9ef696b98b7c0f0473482d2d1d2963e91b3fee408309a",
+      "textLF": true
+    },
+    {
+      "path": "save-ui.mjs",
+      "sha256": "04d9f7710c0c6bfefcfe6b4daf7f3e5a3e90d73aabc639f71d91bd09da51cf40",
+      "textLF": true
+    },
+    {
+      "path": "save-vault.mjs",
+      "sha256": "a55f5caa21cc9d200b72f9661dc2c56abf5c093047b6f7735e9614c84cf5f6bc",
+      "textLF": true
+    },
+    {
+      "path": "save.html",
+      "sha256": "7dbfed890f03b6dd521a1df684cd300c3f95e655970dc7fdc92a740fe709c031",
+      "textLF": true
+    },
+    {
+      "path": "service-worker.js",
+      "sha256": "e2b5a060beff1dfb645e65c7a4755a6e1c698f26f9b2eae69b6f117686b18012",
+      "textLF": true
+    },
+    {
+      "path": "style.css",
+      "sha256": "7773b7094dd5737030766582ad7373b9b434857afe7d81c4ad97c8b1c731903b",
+      "textLF": true
+    },
+    {
+      "path": "vendor/LICENSE",
+      "sha256": "a379dd012587a2fbe434ea6fcef30f502f32077738c2bd36e9e20cce621162bb",
+      "textLF": true
+    },
+    {
+      "path": "vendor/rom-patcher-js/modules/BinFile.js",
+      "sha256": "3856e2f30bb8f105796a0371231a9b2aa37266148ac496711f07fd1e80fef688",
+      "textLF": true
+    },
+    {
+      "path": "vendor/rom-patcher-js/modules/HashCalculator.js",
+      "sha256": "9d3a437aa3a75706533a44745f0201f773718be276d4e60bc2d7613ec01ab95a",
+      "textLF": true
+    },
+    {
+      "path": "vendor/rom-patcher-js/modules/RomPatcher.format.bps.js",
+      "sha256": "559ea67eba3532dc5410c3edd7613580e81997e86b10c2ee446e9a82f98e8c1d",
+      "textLF": true
+    },
+    {
+      "path": "zip.mjs",
+      "sha256": "4abb91af540935d215025ab667af3045a088bb8f9a629776f8e3c69fdc926bfe",
+      "textLF": true
+    }
+  ]
+}

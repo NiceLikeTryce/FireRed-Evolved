@@ -20,6 +20,8 @@
     <select id="save-origin"><option value="evolved">FireRed Evolved / FireRed Evolv3D</option><option value="vanilla">Original FireRed (US/English)</option></select>
     <label for="save-destination">3. Continue on</label>
     <select id="save-destination"><option value="3ds">Nintendo 3DS — FireRed Evolv3D</option><option value="gba">Game Boy Advance — FireRed Evolved</option></select>
+    <p id="trainer-preview" class="small"></p>
+    <button id="save-backup" disabled>Keep a backup in this browser</button>
     <button id="save-download" disabled>Download save transfer package</button>
     <p id="save-status" role="status" aria-live="polite"></p>
   </section>
@@ -27,6 +29,13 @@
     <h2 id="copy-heading">After downloading</h2>
     <ol><li>Close the game and back up its current save.</li><li>Extract the ZIP. It contains your transferred save, an untouched backup and instructions.</li><li id="save-instructions">For 3DS, copy game.sav into /3ds/FireRedEvolved/ on the SD card or emulator SD folder.</li><li>Start the game and choose Continue.</li></ol>
     <p class="small">Party, storage, items, story progress and supported extra game data move together. 3DS settings, randomizer settings and tracker sidecars stay with the 3DS installation.</p>
+  </section>
+  <section aria-labelledby="vault-heading">
+    <h2 id="vault-heading">Your save backups</h2>
+    <p>Keep the latest five different saves per trainer in this browser. Review a backup's trainer and progress, then select it to download a restore package. Your game files are never replaced automatically.</p>
+    <p class="small">Browser storage can be cleared by your browser or device. Keep downloaded backups too. Native 3DS automatic backups are in /3ds/FireRedEvolved/backups/ and can be selected above.</p>
+    <div id="save-vault" aria-live="polite"></div>
+    <p id="vault-status" role="status"></p>
   </section>
   <footer><a href="./">Back to the patcher hub</a> · <a href="guide.html">Controls and save guide</a></footer>
 </main></body></html>

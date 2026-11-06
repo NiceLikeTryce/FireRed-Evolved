@@ -90,6 +90,28 @@ export function prepareTransfer(input, destination, version) {
   return {...inspected,path:destination==='3ds'?'3ds/FireRedEvolved/game.sav':`GBA/FireRed_Evolved_${version}.sav`};
 }
 
+// Preview only: use the same validated, newest coherent bank as the transfer.
+export function previewTrainer(input) {
+  const info=inspectSave(input), bytes=info.bytes;
+  const view=new DataView(bytes.buffer,bytes.byteOffset,bytes.byteLength), sections=new Map();
+  for(let i=0;i<14;i++) {
+    const at=(info.activeBank*14+i)*SECTOR;
+    sections.set(view.getUint16(at+4084,true),bytes.subarray(at,at+SPANS[view.getUint16(at+4084,true)]));
+  }
+  const core=sections.get(0), identity=new DataView(core.buffer,core.byteOffset,core.byteLength);
+  const glyph=code=>code===0?' ':code>=0xbb&&code<=0xd4?String.fromCharCode(65+code-0xbb):
+    code>=0xd5&&code<=0xee?String.fromCharCode(97+code-0xd5):code>=0xa1&&code<=0xaa?String(code-0xa1):
+    ({0xab:'!',0xac:'?',0xad:'.',0xae:'-',0xb4:"'",0xb8:',',0xf0:':'})[code]||'□';
+  const name=[];for(const c of core.subarray(0,7)){if(c===0xff)break;name.push(glyph(c));}
+  const block=new Uint8Array(0x3d68);let offset=0;
+  for(let id=1;id<=4;id++){block.set(sections.get(id),offset);offset+=sections.get(id).length;}
+  let badges=0;for(let i=0;i<8;i++){const flag=0x820+i;if(block[0xee0+(flag>>3)]&(1<<(flag&7)))badges++;}
+  const profile=Array.from([...core.subarray(0,9),...core.subarray(10,14)],b=>b.toString(16).padStart(2,'0')).join('');
+  return {name:name.join('')||'Unnamed trainer',trainerId:identity.getUint16(10,true),
+    hours:identity.getUint16(14,true),minutes:core[16],badges,party:Math.min(block[0x34],6),
+    profile,counter:info.counter,kind:info.kind};
+}
+
 export function prepareVanillaImport(input, destination, version) {
   if (!['gba','3ds'].includes(destination) || !/^v\d+\.\d+\.\d+$/.test(version)) throw Error('Choose a supported destination and game version.');
   const inspected=inspectSave(input);

@@ -1,4 +1,5 @@
-FireRed Evolved v0.2.34
-- Restore Route 14's tree Secret Base.
-- Synchronize the latest encounter rules and event behavior with FireRed Evolv3D.
-- Keep listed rare encounters at 5%, with nighttime Gastly at 5% and Haunter at 1%.
+FireRed Evolved v0.2.36
+- Support walking followers for all 386 species.
+- Show exact Mew/Celebi catch progress, missing Pokemon and habitat links.
+- Add rotating web save backups and verified offline patching after initial setup.
+- Repair Four Island rival visibility on entry, reload and field return; preserve the arrival scene.
