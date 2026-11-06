@@ -33,8 +33,8 @@
     },
     {
       "path": "hub-info.json",
-      "sha256": "5ef2a4d554953f8a389735d0c9c2874eab7467fb73e00dab288bd86237f239ad",
-      "textLF": false
+      "sha256": "be684e46c0f08ebb1af8788ec3e6227335a4ba02d7fc53801d064cc1f5d6fffb",
+      "textLF": true
     },
     {
       "path": "hub.mjs",
