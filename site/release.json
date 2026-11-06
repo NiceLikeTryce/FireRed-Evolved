@@ -1,5 +1,5 @@
 {
-  "version": "v0.2.38",
+  "version": "v0.2.39",
   "target_size": 16777216,
   "target_sha1": "e41d81d9719e837a76b7dc45152b80c82ba66b9b",
   "target_sha256": "4ec8397b379de35a99cdd2129bbe2c13eb80b1a01ac869b19ce1a1a4e5a1040a",
@@ -17,7 +17,7 @@
       "patch_sha256": "b3d3639206602c11eaeec493bfbaf2281d3f12eeb9f2cc3bc29fc59b7c193138"
     }
   ],
-  "asset_root": "https://github.com/NiceLikeTryce/FireRed-Evolved/releases/download/game-v0.2.38",
+  "asset_root": "https://github.com/NiceLikeTryce/FireRed-Evolved/releases/download/game-v0.2.39",
   "package_url": "https://github.com/NiceLikeTryce/FireRed-Evolved/releases/latest",
   "gameplay_version": "v0.2.36",
   "game_build_version": "v0.2.36"
