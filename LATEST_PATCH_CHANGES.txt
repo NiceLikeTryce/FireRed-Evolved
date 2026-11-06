@@ -1,4 +1,4 @@
-Release packagev0.2.39
-- Add HOME Menu QR, wireless setup, in-game updates/recovery, photo mode and a quest journal in the3DS edition.
-- Show complete native utility instructions.
-- Retain the exactv0.2.36 GBA build and BPS files.
+Release packagev0.2.40
+- Refine native roof corners and menu fonts.
+- Add crisp native battle healthboxes.
+- Retain exactv0.2.36 GBA game and BPS files.
