@@ -20,3 +20,7 @@ select{display:block;width:100%;padding:12px;background:var(--input);color:var(-
 @media(max-width:760px){.hub .topbar{align-items:flex-start}.brand span{display:block}.topbar nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}.hero{padding-top:42px}.build-layout{grid-template-columns:1fr;gap:10px}.edition-notes{padding:20px 6px}.gallery-grid{grid-template-columns:1fr}.help-grid{grid-template-columns:1fr;gap:26px}.gallery{padding:20px}}@media(prefers-reduced-motion:no-preference){button,a{transition:background-color .15s,border-color .15s}}
 
 @media(min-width:761px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}.gallery img{height:auto}
+
+.install-card{padding:1.5rem;margin:1.5rem 0;border:1px solid var(--border,#76392d);border-radius:18px;background:var(--surface,#241414)}
+.install-qr{display:block;width:280px;max-width:85%;height:auto;background:white;padding:12px;image-rendering:pixelated}
+.install-qr[hidden]{display:none}.install-link{display:inline-block;padding:.7rem 1rem;border-radius:10px;background:#922c20;color:#fff3e6;text-decoration:none}

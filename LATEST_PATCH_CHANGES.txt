@@ -1,3 +1,4 @@
-Release package v0.2.37
-- Repair the voxel roof peak on the Pallet houses in FireRed Evolv3D.
+Release package v0.2.38
+- Add 3DS HOME Menu QR, wireless setup, in-game updates and recovery.
+- Add native photo mode and a quest journal.
 - Retain the exact FireRed Evolved v0.2.36 GBA build and BPS files.

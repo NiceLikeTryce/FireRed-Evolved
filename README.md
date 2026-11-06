@@ -1,7 +1,7 @@
 # FireRed Evolved
 
 FireRed Evolved expands the original Kanto adventure on Game Boy Advance.
-The current release package is **v0.2.37**. The GBA build remains **v0.2.36**; this package repairs the 3DS Pallet house roof. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
+The current release package is **v0.2.38**. The GBA build remains **v0.2.36**; this package adds FireRed Evolv3D installation, updates, photo mode and a quest journal. [Open the free web patcher](https://niceliketryce.github.io/FireRed-Evolved/).
 
 ## Major features
 
@@ -72,3 +72,5 @@ For offline patching, get the matching BPS from [Releases](https://github.com/Ni
 ![Native voxel battle](site/gallery/native-battle.png)
 
 ![Native touch-screen party](site/gallery/native-party.png)
+
+For the 3DS edition, follow the [HOME Menu QR and wireless installation guide](https://niceliketryce.github.io/FireRed-Evolved/install.html).

@@ -28,7 +28,7 @@
     },
     {
       "path": "guide.html",
-      "sha256": "8f55c23e51ef7297081fc5d1f65bdd553fc1ddf5cb7f04efcb166bb6fc70cac9",
+      "sha256": "7a10d8fe665fa3de5ffcf01d4dd2857f12c6ed0f4714504808f886b10aaebede",
       "textLF": true
     },
     {
@@ -43,7 +43,17 @@
     },
     {
       "path": "index.html",
-      "sha256": "3ebf590b6c2f1845cc18df3792495223ffc24e433724d20ab328bfee4f4754ff",
+      "sha256": "86db7d636e411ae7946dad327efd1c857cedc0098bfe2eef6c17ffe945f9754c",
+      "textLF": true
+    },
+    {
+      "path": "install.html",
+      "sha256": "d07feb0069df8795443ccd186ef4086825b17302093ddc60ed74c3bbcc247954",
+      "textLF": true
+    },
+    {
+      "path": "install.mjs",
+      "sha256": "85a6a731bb25d44c8c0f32a9981039b6321e74696d0d5b8e3745aaaaa5333269",
       "textLF": true
     },
     {
@@ -58,7 +68,7 @@
     },
     {
       "path": "offline.mjs",
-      "sha256": "3e2e278f9d14fe4c790a457a5cbad3c6f6acb4ab18ad0c63033281700106b78b",
+      "sha256": "f21418b61eab753d657f5581b2a43d71b1d53d3f943a24787aba5bfaee2f3894",
       "textLF": true
     },
     {
@@ -88,7 +98,7 @@
     },
     {
       "path": "style.css",
-      "sha256": "7773b7094dd5737030766582ad7373b9b434857afe7d81c4ad97c8b1c731903b",
+      "sha256": "8e6580888e2880713bcaef15f59ce16cd6a361cf18fcd9a22c5ce7041ef72f72",
       "textLF": true
     },
     {

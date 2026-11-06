@@ -31,6 +31,14 @@ export async function prepareOffline(progress=()=>{}){
       files.push({url:'/FireRed-Evolved/assets/'+source.patch,sha256:source.patch_sha256});
     }
     for(const [part,descriptor]of Object.entries(native.parts))files.push({url:'/FireRed-Evolv3D/assets/'+part,sha256:descriptor.sha256,size:descriptor.size});
+    if(native.downloads){
+      const extras=[['launcher','FireRed-Evolv3D-Launcher.cia',4*1024*1024],['launcher_qr','FireRed-Evolv3D-Launcher-QR.png',128*1024],['wireless','FireRed-Evolv3D-Wireless.zip',64*1024*1024]];
+      for(const [key,name,limit]of extras){
+        const item=native.downloads[key];
+        if(native.launcher_abi!==1||!item||item.asset!==name||!Number.isSafeInteger(item.size)||item.size<1||item.size>limit||!/^[a-f0-9]{64}$/.test(item.sha256))throw Error('Invalid offline installation tool.');
+        files.push({url:'/FireRed-Evolv3D/downloads/'+name,sha256:item.sha256,size:item.size});
+      }
+    }
     let done=0;
     for(const file of files){
       progress(`Saving offline files ${++done}/${files.length}…`);
