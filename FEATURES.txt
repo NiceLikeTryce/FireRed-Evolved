@@ -428,3 +428,5 @@
 - Native3DS options — Separate speeds, HM assist, EXP tools, move split, reusable TMs, Classic Menus and optional cheats in FireRed Evolv3D.
 
 - Native 3DS visuals — Top-screen Pokédex device/habitats and smooth reversible voxel/classic view changes in FireRed Evolv3D.
+
+- Native menu stability — FireRed Evolv3D keeps its menus and top view consistent during handoffs.
