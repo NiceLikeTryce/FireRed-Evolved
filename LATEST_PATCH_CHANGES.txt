@@ -1,4 +1,3 @@
-Release packagev0.2.40
-- Refine native roof corners and menu fonts.
-- Add crisp native battle healthboxes.
-- Retain exactv0.2.36 GBA game and BPS files.
+Release package v0.2.41
+- Add optional native 3DS gameplay, speed, menu and cheat controls.
+- Retain exact v0.2.36 GBA game and patch bytes.
