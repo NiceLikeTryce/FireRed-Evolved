@@ -426,3 +426,5 @@
 - Four Island preserves the rival arrival and repairs stale rival visibility after revisits or reloading.
 
 - Native3DS options — Separate speeds, HM assist, EXP tools, move split, reusable TMs, Classic Menus and optional cheats in FireRed Evolv3D.
+
+- Native 3DS visuals — Top-screen Pokédex device/habitats and smooth reversible voxel/classic view changes in FireRed Evolv3D.
