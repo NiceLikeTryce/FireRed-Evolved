@@ -430,3 +430,5 @@
 - Native 3DS visuals — Top-screen Pokédex device/habitats and smooth reversible voxel/classic view changes in FireRed Evolv3D.
 
 - Native menu stability — FireRed Evolv3D keeps its menus and top view consistent during handoffs.
+
+- Native help and updates — Options explanations and release notes in FireRed Evolv3D.
