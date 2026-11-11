@@ -12,7 +12,6 @@ The current release package is **v0.2.46**. The GBA build remains **v0.2.36**; t
 
 ## Major features
 
-- **Postgame Gen3 support** — Gen 3 trades, held items, breeding and Dex entries after Celio’s quest.
 
 - **All 251 Pokémon** — Catch every Gen 1 and 2 species, including LeafGreen exclusives.
 - **Bigger battle rewards** — Bonus items, TMs and unlocks.
@@ -44,6 +43,7 @@ The current release package is **v0.2.46**. The GBA build remains **v0.2.36**; t
 - **Acro Bike** — Hop ledges both ways after the Champion.
 - **Mirage Island** — New ferry stop after the Champion.
 - **Legendary encounters** — Visible roaming beasts and legendary retries.
+- **Postgame Gen3 support** — Gen 3 trades, held items, breeding and Dex entries after Celio’s quest.
 
 <details>
 <summary>Reward milestones and RNG tool notes</summary>
