@@ -13,17 +13,16 @@ The current release package is **v0.2.46**. The GBA build remains **v0.2.36**; t
 ## Major features
 
 
-- **All 251 Pokémon** — Catch every Gen 1 and 2 species, including LeafGreen exclusives.
-- **Bigger battle rewards** — Bonus items, TMs and unlocks.
-- **RNG Fix** — Ruby and Sapphire’s clock-based seeding.
-- **Walking partners** — All 386 species and shinies after postgame unlocks.
+- **All 251 Pokémon** — Catch every Gen 1 and 2 species, including LeafGreen exclusives. 
 - **Battle Frontier** — Seven facilities, link battles, recordings and Emerald music.
+- **Bigger battle rewards** — Bonus items, TMs and unlocks. 
 - **Secret Bases** — 28 entrances, decorating, visits and battles.
 - **Celadon Contests** — Five categories, four ranks, ribbons and paintings.
 - **Pokéblocks** — Blend berries and feed your Pokémon.
 - **Berry gardening** — 22 beds and a Goldeen Canteen.
-
-- **Reward progress** — Mew and Celebi totals, missing Pokémon and habitats.
+- **RNG Fix** — Ruby and Sapphire’s clock-based seeding.
+- **Walking partners** — All 386 species and shinies after postgame unlocks.
+- **Reward progress** — Mew and Celebi access for completing gen1 and gen2 dex, respectively. 
 - **Save backups** — Five backups per trainer, with previews.
 - **Offline builder** — Build either edition offline.
 
